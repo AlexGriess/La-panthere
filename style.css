@@ -661,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #ffffff!important;
+    color: #000000;
 }
 
 .container {
@@ -687,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -717,6 +717,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #333333!important;
 }
 
 h3 {
@@ -785,11 +786,11 @@ h4 {
 }
 
 .tc-white {
-    color: #DD390D!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #DD390D;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -799,7 +800,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
@@ -1056,6 +1057,32 @@ h4 {
     text-align: center;
 }
 
-.footer li{
-    padding: 5px 10px 5px 10px;
+.footer li a{
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+
+.button-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2-texte{
+    display:flex;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    max-width: 100%;
+}
+
+.section2-temoignage{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+
+.padding20{
+    padding: 20px 20px 20px 20px;
 }
