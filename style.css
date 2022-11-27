@@ -1,3 +1,13 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -100,7 +110,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -651,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #ffffff!important;
 }
 
 .container {
@@ -771,15 +781,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #DD390D;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #DD390D!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #DD390D;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +807,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #DD390D!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1039,4 +1049,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.footer-align{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.footer li{
+    padding: 5px 10px 5px 10px;
 }
