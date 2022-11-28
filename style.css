@@ -1094,3 +1094,8 @@ h4 {
 .header__logo1{
     width: 100%;
 }
+
+.section4-texte{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
