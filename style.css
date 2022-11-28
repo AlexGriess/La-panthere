@@ -1073,6 +1073,7 @@ h4 {
     text-align: center;
     padding: 20px 20px 20px 20px;
     max-width: 100%;
+    margin: 0px 20px 0px 20px;
 }
 
 .section2-temoignage{
@@ -1081,8 +1082,15 @@ h4 {
     text-align: center;
     padding: 20px 20px 20px 20px;
     font-size: 18px;
+    margin: 0px 20px 0px 20px;
+    color: #5d5d5d;
 }
 
 .padding20{
     padding: 20px 20px 20px 20px;
+    
+}
+
+.header__logo1{
+    width: 100%;
 }
