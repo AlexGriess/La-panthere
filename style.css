@@ -1081,12 +1081,15 @@ h4 {
 }
 
 .padding20{
-    padding: 20px 20px 20px 20px;
-    
+    padding: 20px 20px 20px 20px;   
 }
 
 .header__logo1{
     width: 100%;
+}
+
+.section3__title{
+    color:#DD390D !important;
 }
 
 .section4-texte{
@@ -1094,32 +1097,45 @@ h4 {
     padding: 20px 20px 20px 20px;
 }
 
-.footer h3{
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0px 5px 0px;
-    color: white;
-    text-align: center
+.section4{
+    display: inline;
+    text-align: center;
 }
 
-.footer li a{
+.section5__title{
+    color:white !important;
+    margin: 20px 20px 20px 20px;
+}
+
+.section7{
     display: flex;
     flex-direction: column;
-    padding: 15px 0px 15px 0px;
-    color: white;
-    text-align: center
+    align-items: center;
+}
+
+.section7__item{
+    padding: 20px 20px 20px 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #DD390D;
+}
+
+.footer h2 {
+    color: white !important;
+    text-align: center;
+    padding: 20px;
 }
 
 .footer__sociaux{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;    
+    color: white !important;
 }
 
-.footer__sociaux--icone{
+.footer__sociaux a{
     padding: 20px 20px 20px 20px;
-}
-
-.footer__link{
-
+    color: white !important;
 }
